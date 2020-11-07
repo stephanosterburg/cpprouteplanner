@@ -30,6 +30,10 @@ git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-subm
   * Installation instructions for all operating systems can be found [here](https://github.com/cpp-io2d/P0267_RefImpl/blob/master/BUILDING.md)
   * This library must be built in a place where CMake `find_package` will be able to find it
 
+## Installation Notes
+
+Here is a step-by-step installation guide by [mylescallan](https://github.com/mylescallan/OpenStreetMaps_C-).
+
 ## Compiling and Running
 
 ### Compiling
@@ -58,4 +62,3 @@ The testing executable is also placed in the `build` directory. From within `bui
 ```
 ./test
 ```
-
