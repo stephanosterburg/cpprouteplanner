@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/stephanosterburg/Projects/cpprouteplanner/src/model.h
+vector
+-
+unordered_map
+-
+string
+-
+cstddef
+-
+
+/Users/stephanosterburg/Projects/cpprouteplanner/src/route_model.h
+limits
+-
+cmath
+-
+unordered_map
+-
+model.h
+/Users/stephanosterburg/Projects/cpprouteplanner/src/model.h
+iostream
+-
+
+/Users/stephanosterburg/Projects/cpprouteplanner/src/route_planner.cpp
+route_planner.h
+/Users/stephanosterburg/Projects/cpprouteplanner/src/route_planner.h
+algorithm
+-
+
+/Users/stephanosterburg/Projects/cpprouteplanner/src/route_planner.h
+iostream
+-
+vector
+-
+string
+-
+route_model.h
+/Users/stephanosterburg/Projects/cpprouteplanner/src/route_model.h
+

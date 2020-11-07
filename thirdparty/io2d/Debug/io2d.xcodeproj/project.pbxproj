@@ -1,0 +1,1945 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1993FFB2476445B7B462CFF6 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CEDC87BAC3EF4B8DAED35A33 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				0B47E364512D466F99A2A2E1 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		B7FCAB2BD8C349C99D51D7C6 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = ED8F016DAB2343909D95171E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				176751C21CF94F268C4D880F /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				1BFD60698B124FB197BF56E0 /* PBXTargetDependency */,
+				B2DB2BCE7F904E0B944648AF /* PBXTargetDependency */,
+				9311A64F3D8A41ADA38633AE /* PBXTargetDependency */,
+				7E07F59061D6400BB0646A93 /* PBXTargetDependency */,
+				19C2BA1E98B1473A86ECF5CD /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		CD4EC7C9C36F47E49FA0AB79 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8B7A0F49B28444EE8CB39C7F /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				239D34A421084B47A06CB9C6 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				90F506E565B34FAC852178E6 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		E68D587382124A8B8912BD46 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 33AF7D1D9A014F60A2D8E460 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				E2E7907F308449D7B11AC649 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		043FE8E321A34747B7047A9B /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/comparison.cpp */ = {isa = PBXBuildFile; fileRef = 05B7D889F4184ED980782BE8 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/comparison.cpp */; };
+		082E990423E84623B1C7E0B8 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xgraphicsmathfloat_impl.h */ = {isa = PBXBuildFile; fileRef = 0F0D1AF0609D4FBBA00D4633 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xgraphicsmathfloat_impl.h */; };
+		1501D1ABFC1A4BF7A9C51D45 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac/io2d_coregraphics_mac.h */ = {isa = PBXBuildFile; fileRef = 40E1CD2E58E04B51AAD7E115 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac/io2d_coregraphics_mac.h */; };
+		15066978A7A141FC9A975C33 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 74F38C9CB8664F76AE295ABF /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/CMakeLists.txt */; };
+		1A2BF9ECD1764E2587446FC9 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_surfaces.h */ = {isa = PBXBuildFile; fileRef = D355C15E747C4F169A81CDBA /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_surfaces.h */; };
+		1A2E211637AB4976AC43BEC1 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xinterchangebuffer.h */ = {isa = PBXBuildFile; fileRef = 354CEDB3B81842AEB7D5E5D2 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xinterchangebuffer.h */; };
+		1A82696627C9436A9862DAC8 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_paths.h */ = {isa = PBXBuildFile; fileRef = FC03093FA8F7446588EAE3DD /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_paths.h */; };
+		1C1A246C97BA4D92AE2A000F /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/stroke_width.cpp */ = {isa = PBXBuildFile; fileRef = 0F09F4E954C9419C9A4B79FC /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/stroke_width.cpp */; };
+		1D2578D744834174897E532B /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xgraphicsmath.h */ = {isa = PBXBuildFile; fileRef = A6CFF9FB99BC4518A27C04B1 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xgraphicsmath.h */; };
+		27284A8F6D2D4C47A2491D59 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac/xio2d_cg_output_surfaces.mm */ = {isa = PBXBuildFile; fileRef = 900D18D9641643FA965B2330 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac/xio2d_cg_output_surfaces.mm */; };
+		296DF38344FA4DBD917BC1FD /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_main.h */ = {isa = PBXBuildFile; fileRef = D4D8E43F36494F36B5E2882E /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_main.h */; };
+		2FFBD200D10148BA93EF5E2A /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_paths_figures.h */ = {isa = PBXBuildFile; fileRef = 85AB2BB0C336400493E76C13 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_paths_figures.h */; };
+		36FB316675BF4AA594236FC9 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_display.h */ = {isa = PBXBuildFile; fileRef = CF7C0EE9E1FC40F4A4A9199B /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_display.h */; };
+		381F27B3562244DFAE9BA7C6 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/stroke_dashes.cpp */ = {isa = PBXBuildFile; fileRef = F12515BA35A54C888ACDB9F4 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/stroke_dashes.cpp */; };
+		42E0812F187947D3A12B2601 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xbrushes_impl.h */ = {isa = PBXBuildFile; fileRef = 684D698DCCDA4A8CABCB9BCD /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xbrushes_impl.h */; };
+		432BA085543340CB9685FC4B /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/mask.cpp */ = {isa = PBXBuildFile; fileRef = A9223F9AA5B54DA0A4A6F327 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/mask.cpp */; };
+		441BAA95E0D54E09A5FDF510 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 3189B589B7D44BDAAEA23C2F /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/CMakeLists.txt */; };
+		4725E19C95FD4C59B24B8CDC /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/surface_brush.cpp */ = {isa = PBXBuildFile; fileRef = 2B0EA06FAFFA466BBF7233E5 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/surface_brush.cpp */; };
+		49108FC805384AD182231BEC /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_brushes.h */ = {isa = PBXBuildFile; fileRef = E292B66CEBF5485D81D7A7DD /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_brushes.h */; };
+		4B47488D011C4AC5A728496A /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/main.cpp */ = {isa = PBXBuildFile; fileRef = 9B002B203B6A408180561D94 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/main.cpp */; };
+		50895A9BA6BF4B669482CC4A /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_gradient.h */ = {isa = PBXBuildFile; fileRef = 10236FC4E72D4A108B130D29 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_gradient.h */; };
+		5BB96255DD2D4C9A8EFBCE23 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xbrushes.h */ = {isa = PBXBuildFile; fileRef = D0DE0A0389A344199724AA76 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xbrushes.h */; };
+		63B92055391F43399389F7F1 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/color.cpp */ = {isa = PBXBuildFile; fileRef = 2666A9EC82DC4B18AABB4EED /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/color.cpp */; };
+		63D2E10BCA5D420DB9C55F91 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac/io2d.h */ = {isa = PBXBuildFile; fileRef = 3F688FED819544FE92AE87A1 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac/io2d.h */; };
+		6ABA215B54E0402EA126B9C0 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_tmplayer.cpp */ = {isa = PBXBuildFile; fileRef = 686F721CEC584B699DB7036B /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_tmplayer.cpp */; };
+		6ACD073398244FDBAF211CB7 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xcolor.h */ = {isa = PBXBuildFile; fileRef = D79E0FB779164D2E9D28BB44 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xcolor.h */; };
+		6D784B2E015D47098EF6D0D0 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_fps_counter.h */ = {isa = PBXBuildFile; fileRef = B83AF00B6E4C45FB94E421AE /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_fps_counter.h */; };
+		6FDBDC9C9A7D4BFFB596DBA7 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xgraphicsmathfloat.h */ = {isa = PBXBuildFile; fileRef = B9C092D677D64E5FB070218B /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xgraphicsmathfloat.h */; };
+		701753BA23864592A0956193 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_colors.h */ = {isa = PBXBuildFile; fileRef = CF0AF23FC3CD46E9B6F4C88A /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_colors.h */; };
+		7237164E83194152B6E92681 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_texture.h */ = {isa = PBXBuildFile; fileRef = 3EDC7D05CA4A4ED8A16C7478 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_texture.h */; };
+		73698495C17442E797EB62CD /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xdiagnostics.h */ = {isa = PBXBuildFile; fileRef = 752248E87BE640DD954E7A2E /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xdiagnostics.h */; };
+		76AA0A09DE9948DDB9BB8A42 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 60FB8D9559B3490DB426A800 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/CMakeLists.txt */; };
+		7CF2AAB9C6934451AD3A73DE /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_paths.cpp */ = {isa = PBXBuildFile; fileRef = 749642422E634331B9BAEF67 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_paths.cpp */; };
+		7DCAF76A158C449381CAFBFB /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/blending.cpp */ = {isa = PBXBuildFile; fileRef = 6975D6ADEEF247D0AA8525AB /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/blending.cpp */; };
+		7EC6B6251FED46F09CE6E42D /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/radial_gradient.cpp */ = {isa = PBXBuildFile; fileRef = 8D1F36E9114E433EA6F3DB95 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/radial_gradient.cpp */; };
+		830F19D4AAB94D619EC5A885 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/frontend_semantics.cpp */ = {isa = PBXBuildFile; fileRef = 1078648973034642822D9A0E /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/frontend_semantics.cpp */; };
+		87FE18351E444C98B787D727 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_interop.h */ = {isa = PBXBuildFile; fileRef = 71FFDA51FFBD4F19B27CE1DA /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_interop.h */; };
+		892C3A51E7954F6BA5D2E6E5 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xtext.h */ = {isa = PBXBuildFile; fileRef = A9FD2A0F77864D2BBC2BB0BF /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xtext.h */; };
+		8BB2816C3C9345A48E7E9FC8 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_texture.cpp */ = {isa = PBXBuildFile; fileRef = 5214BF43BFD1433695F97052 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_texture.cpp */; };
+		8CF539E53BC7457EAA6BA009 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_brushes.cpp */ = {isa = PBXBuildFile; fileRef = D0749CA97A6442C78AA7B6AC /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_brushes.cpp */; };
+		913C81BF4CDC473E8E9381E4 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_display.cpp */ = {isa = PBXBuildFile; fileRef = 0989F696381742C79FE5638F /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_display.cpp */; };
+		9593FE9243EE49FEB4E3AF0A /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_gradient.cpp */ = {isa = PBXBuildFile; fileRef = AC6A47F79CBE4CFDB7354B4C /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_gradient.cpp */; };
+		9DFE74EE6E8B4B3B9FA6F2EF /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xinput.h */ = {isa = PBXBuildFile; fileRef = 4D33A7C89E674216A797D1DF /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xinput.h */; };
+		A1C222ED8380491D8BF2BDA4 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_fps_counter.cpp */ = {isa = PBXBuildFile; fileRef = 7074318CE5F746249D648FB8 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_fps_counter.cpp */; };
+		A1E61655C666421E885F5C9C /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac/xio2d_cg_output_surfaces.h */ = {isa = PBXBuildFile; fileRef = 60F461C9860E4BC69473C0E8 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac/xio2d_cg_output_surfaces.h */; };
+		A834D90D3C0D44E7BA2FEADE /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/rgba_color.cpp */ = {isa = PBXBuildFile; fileRef = 198325D1C7C0454BB318EC37 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/rgba_color.cpp */; };
+		AB928EE1497E4066B4381669 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/rectangle_stroke.cpp */ = {isa = PBXBuildFile; fileRef = 3B71A87B113246C29007341C /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/rectangle_stroke.cpp */; };
+		AED32D029DCD419FAF6E4442 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = EC934C6C79FA46FFA5DFD1A3 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac/CMakeLists.txt */; };
+		AEDC6D11E7E74A78BF1D0DCD /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_paths_figures.cpp */ = {isa = PBXBuildFile; fileRef = C65C1EB676164815992574B7 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_paths_figures.cpp */; };
+		B24FE0D799AE498B891BF8F7 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_colors.cpp */ = {isa = PBXBuildFile; fileRef = A52586614D5540F09AAA6830 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_colors.cpp */; };
+		B36823AA33B443C287B9999B /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xio2d.h */ = {isa = PBXBuildFile; fileRef = 27B8C04A66434EA5B717FCFE /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xio2d.h */; };
+		BB98F3E814C94B1CB2D8B9F3 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xsurfaces.h */ = {isa = PBXBuildFile; fileRef = 2A07C1328B8247268DF1C274 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xsurfaces.h */; };
+		BC6868464E2B4E738882A9E9 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/background_paint.cpp */ = {isa = PBXBuildFile; fileRef = 5A098AFD6AE645AEB366B69A /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/background_paint.cpp */; };
+		C1B615424C1B44D9B18E53CC /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_surface_state_props.h */ = {isa = PBXBuildFile; fileRef = 4422263C429F4ABDAE9218CE /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_surface_state_props.h */; };
+		C84B3079BFCB4AF79F5303AE /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xpath_impl.h */ = {isa = PBXBuildFile; fileRef = FC0A7743665D4466B43A6A37 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xpath_impl.h */; };
+		CD2791DEB721440B917D063B /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xpathbuilder_impl.h */ = {isa = PBXBuildFile; fileRef = 62CB8333D99F470B81AB0D1D /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xpathbuilder_impl.h */; };
+		D26E5037AE18421EB566D78B /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xio2d_impl.h */ = {isa = PBXBuildFile; fileRef = 03D926517DCE4CE2A33DB7F9 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xio2d_impl.h */; };
+		D5D477F86A6747489C0F4BAC /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xpath.h */ = {isa = PBXBuildFile; fileRef = 27C7598E46FF43AEA79E52D4 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xpath.h */; };
+		D82E8213CF394C36A069805C /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_tmplayer.h */ = {isa = PBXBuildFile; fileRef = 0835A13B09CA4CA18E5943DE /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_tmplayer.h */; };
+		E0637316DF2147C09C7FC316 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xsurfacesprops_impl.h */ = {isa = PBXBuildFile; fileRef = C39D73D4782A406B9C44571F /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xsurfacesprops_impl.h */; };
+		E2C00EA6C6B3465C91B8E59C /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/image_io.cpp */ = {isa = PBXBuildFile; fileRef = 9BA03E46685546C6959553A3 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/image_io.cpp */; };
+		E5CC49CC3B754A6D8C19670B /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/image_format.cpp */ = {isa = PBXBuildFile; fileRef = 4A5387EA64D544C0BFF39257 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/image_format.cpp */; };
+		E70CBFC935A0450D8C21BB92 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xinterchangebuffer.cpp */ = {isa = PBXBuildFile; fileRef = 0DB862DD94564522A4AFDF65 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xinterchangebuffer.cpp */; };
+		EC95E5AD7EC240EA8CCF0AEE /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xsurfaces_enums.h */ = {isa = PBXBuildFile; fileRef = 591B070DEB0348028A78DB62 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xsurfaces_enums.h */; };
+		EF1AB5DACED84BCEA50D636D /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/comparison.h */ = {isa = PBXBuildFile; fileRef = 0094D13DB12E4DE4BE712B76 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/comparison.h */; };
+		F38DB659E827478587168316 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_surfaces.cpp */ = {isa = PBXBuildFile; fileRef = 2E2620E051C0406F84B84CBD /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_surfaces.cpp */; };
+		F748E3173D564377BE81E4E8 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xsurfaces_impl.h */ = {isa = PBXBuildFile; fileRef = 1844F00022C3445F97ACF8F5 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xsurfaces_impl.h */; };
+		F810322775004BCE9A366B63 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/linear_gradient.cpp */ = {isa = PBXBuildFile; fileRef = 88589B72EAD54ECDB5263C95 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/linear_gradient.cpp */; };
+		F89E80CA5FC04CEA9E29D774 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xgraphicsmath_impl.h */ = {isa = PBXBuildFile; fileRef = 1C25B7E224554E4C902DA5B7 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xgraphicsmath_impl.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		03FF119063A74CB38504CD1C /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		572A8316CBCF48B187F76F2A /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		6243C44134F447879D54262D /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		7EB7A518FEA4490F96C82503 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1B439AB480BE4256B48F3075 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E29BD9BF5E455DA6EEFFFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 592B4E0CD2364A0ABC48CF05;
+			remoteInfo = io2d_coregraphics;
+		};
+		23C2AD1BE5E042588ABDD52B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E29BD9BF5E455DA6EEFFFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7261746284A04E3BAAA98063;
+			remoteInfo = io2d_core;
+		};
+		53683E56F1A140FAAB97DAF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E29BD9BF5E455DA6EEFFFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7261746284A04E3BAAA98063;
+			remoteInfo = io2d_core;
+		};
+		6991C6C1C0A74613B202A011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E29BD9BF5E455DA6EEFFFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7261746284A04E3BAAA98063;
+			remoteInfo = io2d_core;
+		};
+		89F89025B9AE450287FAFB40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E29BD9BF5E455DA6EEFFFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7261746284A04E3BAAA98063;
+			remoteInfo = io2d_core;
+		};
+		9297F29D12814D73B80C60C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E29BD9BF5E455DA6EEFFFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F863DB11B39C4785ADACEB29;
+			remoteInfo = io2d_coregraphics_mac;
+		};
+		A191041B35E84C62B58D92A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E29BD9BF5E455DA6EEFFFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E68D587382124A8B8912BD46;
+			remoteInfo = ZERO_CHECK;
+		};
+		A7C2DF5D83FC4E3B873EDC49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E29BD9BF5E455DA6EEFFFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E68D587382124A8B8912BD46;
+			remoteInfo = ZERO_CHECK;
+		};
+		B2985803F70A4220839A4DD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E29BD9BF5E455DA6EEFFFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E68D587382124A8B8912BD46;
+			remoteInfo = ZERO_CHECK;
+		};
+		C5EDF5755D7742DC82E99D63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E29BD9BF5E455DA6EEFFFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E68D587382124A8B8912BD46;
+			remoteInfo = ZERO_CHECK;
+		};
+		E81748D4FE7B4A859214829C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E29BD9BF5E455DA6EEFFFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E68D587382124A8B8912BD46;
+			remoteInfo = ZERO_CHECK;
+		};
+		EA52EC3D38A9430E9CDFD023 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E29BD9BF5E455DA6EEFFFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 592B4E0CD2364A0ABC48CF05;
+			remoteInfo = io2d_coregraphics;
+		};
+		EBBDD25E427F44D689F48149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E29BD9BF5E455DA6EEFFFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7FCAB2BD8C349C99D51D7C6;
+			remoteInfo = ALL_BUILD;
+		};
+		F3ADAC60E5F344FD8E7E0604 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E29BD9BF5E455DA6EEFFFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 592B4E0CD2364A0ABC48CF05;
+			remoteInfo = io2d_coregraphics;
+		};
+		F7A8581EE34F457CB1693993 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E29BD9BF5E455DA6EEFFFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F863DB11B39C4785ADACEB29;
+			remoteInfo = io2d_coregraphics_mac;
+		};
+		F883B6760A764EEE81B00046 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E29BD9BF5E455DA6EEFFFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D1D899549ED412FAE5F2F39;
+			remoteInfo = tests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0094D13DB12E4DE4BE712B76 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/comparison.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = comparison.h; path = P0267_RefImpl/Tests/comparison.h; sourceTree = SOURCE_ROOT; };
+		03D926517DCE4CE2A33DB7F9 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xio2d_impl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xio2d_impl.h; path = P0267_RefImpl/P0267_RefImpl/xio2d_impl.h; sourceTree = SOURCE_ROOT; };
+		05B7D889F4184ED980782BE8 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/comparison.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = comparison.cpp; path = P0267_RefImpl/Tests/comparison.cpp; sourceTree = SOURCE_ROOT; };
+		0835A13B09CA4CA18E5943DE /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_tmplayer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xio2d_cg_tmplayer.h; path = P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_tmplayer.h; sourceTree = SOURCE_ROOT; };
+		0989F696381742C79FE5638F /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_display.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xio2d_cg_display.cpp; path = P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_display.cpp; sourceTree = SOURCE_ROOT; };
+		0DB862DD94564522A4AFDF65 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xinterchangebuffer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xinterchangebuffer.cpp; path = P0267_RefImpl/P0267_RefImpl/xinterchangebuffer.cpp; sourceTree = SOURCE_ROOT; };
+		0F09F4E954C9419C9A4B79FC /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/stroke_width.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stroke_width.cpp; path = P0267_RefImpl/Tests/stroke_width.cpp; sourceTree = SOURCE_ROOT; };
+		0F0D1AF0609D4FBBA00D4633 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xgraphicsmathfloat_impl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xgraphicsmathfloat_impl.h; path = P0267_RefImpl/P0267_RefImpl/xgraphicsmathfloat_impl.h; sourceTree = SOURCE_ROOT; };
+		10236FC4E72D4A108B130D29 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_gradient.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xio2d_cg_gradient.h; path = P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_gradient.h; sourceTree = SOURCE_ROOT; };
+		1078648973034642822D9A0E /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/frontend_semantics.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = frontend_semantics.cpp; path = P0267_RefImpl/Tests/frontend_semantics.cpp; sourceTree = SOURCE_ROOT; };
+		1844F00022C3445F97ACF8F5 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xsurfaces_impl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xsurfaces_impl.h; path = P0267_RefImpl/P0267_RefImpl/xsurfaces_impl.h; sourceTree = SOURCE_ROOT; };
+		198325D1C7C0454BB318EC37 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/rgba_color.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rgba_color.cpp; path = P0267_RefImpl/P0267_RefImpl/rgba_color.cpp; sourceTree = SOURCE_ROOT; };
+		1C25B7E224554E4C902DA5B7 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xgraphicsmath_impl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xgraphicsmath_impl.h; path = P0267_RefImpl/P0267_RefImpl/xgraphicsmath_impl.h; sourceTree = SOURCE_ROOT; };
+		210807A0D94F4E368FE19621 /* io2d_coregraphics_mac */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libio2d_coregraphics_mac.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2666A9EC82DC4B18AABB4EED /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/color.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = color.cpp; path = P0267_RefImpl/Tests/color.cpp; sourceTree = SOURCE_ROOT; };
+		27B8C04A66434EA5B717FCFE /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xio2d.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xio2d.h; path = P0267_RefImpl/P0267_RefImpl/xio2d.h; sourceTree = SOURCE_ROOT; };
+		27C7598E46FF43AEA79E52D4 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xpath.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xpath.h; path = P0267_RefImpl/P0267_RefImpl/xpath.h; sourceTree = SOURCE_ROOT; };
+		2A07C1328B8247268DF1C274 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xsurfaces.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xsurfaces.h; path = P0267_RefImpl/P0267_RefImpl/xsurfaces.h; sourceTree = SOURCE_ROOT; };
+		2B0EA06FAFFA466BBF7233E5 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/surface_brush.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = surface_brush.cpp; path = P0267_RefImpl/Tests/surface_brush.cpp; sourceTree = SOURCE_ROOT; };
+		2E2620E051C0406F84B84CBD /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_surfaces.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xio2d_cg_surfaces.cpp; path = P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_surfaces.cpp; sourceTree = SOURCE_ROOT; };
+		3189B589B7D44BDAAEA23C2F /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = P0267_RefImpl/P0267_RefImpl/coregraphics/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		354CEDB3B81842AEB7D5E5D2 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xinterchangebuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xinterchangebuffer.h; path = P0267_RefImpl/P0267_RefImpl/xinterchangebuffer.h; sourceTree = SOURCE_ROOT; };
+		3B71A87B113246C29007341C /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/rectangle_stroke.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rectangle_stroke.cpp; path = P0267_RefImpl/Tests/rectangle_stroke.cpp; sourceTree = SOURCE_ROOT; };
+		3EDC7D05CA4A4ED8A16C7478 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_texture.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xio2d_cg_texture.h; path = P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_texture.h; sourceTree = SOURCE_ROOT; };
+		3F688FED819544FE92AE87A1 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac/io2d.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = io2d.h; path = P0267_RefImpl/P0267_RefImpl/coregraphics/mac/io2d.h; sourceTree = SOURCE_ROOT; };
+		40E1CD2E58E04B51AAD7E115 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac/io2d_coregraphics_mac.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = io2d_coregraphics_mac.h; path = P0267_RefImpl/P0267_RefImpl/coregraphics/mac/io2d_coregraphics_mac.h; sourceTree = SOURCE_ROOT; };
+		4422263C429F4ABDAE9218CE /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_surface_state_props.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xio2d_cg_surface_state_props.h; path = P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_surface_state_props.h; sourceTree = SOURCE_ROOT; };
+		4A5387EA64D544C0BFF39257 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/image_format.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = image_format.cpp; path = P0267_RefImpl/Tests/image_format.cpp; sourceTree = SOURCE_ROOT; };
+		4D33A7C89E674216A797D1DF /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xinput.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xinput.h; path = P0267_RefImpl/P0267_RefImpl/xinput.h; sourceTree = SOURCE_ROOT; };
+		5214BF43BFD1433695F97052 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_texture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xio2d_cg_texture.cpp; path = P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_texture.cpp; sourceTree = SOURCE_ROOT; };
+		591B070DEB0348028A78DB62 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xsurfaces_enums.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xsurfaces_enums.h; path = P0267_RefImpl/P0267_RefImpl/xsurfaces_enums.h; sourceTree = SOURCE_ROOT; };
+		5A098AFD6AE645AEB366B69A /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/background_paint.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = background_paint.cpp; path = P0267_RefImpl/Tests/background_paint.cpp; sourceTree = SOURCE_ROOT; };
+		60F461C9860E4BC69473C0E8 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac/xio2d_cg_output_surfaces.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xio2d_cg_output_surfaces.h; path = P0267_RefImpl/P0267_RefImpl/coregraphics/mac/xio2d_cg_output_surfaces.h; sourceTree = SOURCE_ROOT; };
+		60FB8D9559B3490DB426A800 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = P0267_RefImpl/Tests/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		62CB8333D99F470B81AB0D1D /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xpathbuilder_impl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xpathbuilder_impl.h; path = P0267_RefImpl/P0267_RefImpl/xpathbuilder_impl.h; sourceTree = SOURCE_ROOT; };
+		684D698DCCDA4A8CABCB9BCD /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xbrushes_impl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xbrushes_impl.h; path = P0267_RefImpl/P0267_RefImpl/xbrushes_impl.h; sourceTree = SOURCE_ROOT; };
+		686F721CEC584B699DB7036B /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_tmplayer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xio2d_cg_tmplayer.cpp; path = P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_tmplayer.cpp; sourceTree = SOURCE_ROOT; };
+		6975D6ADEEF247D0AA8525AB /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/blending.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = blending.cpp; path = P0267_RefImpl/Tests/blending.cpp; sourceTree = SOURCE_ROOT; };
+		7074318CE5F746249D648FB8 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_fps_counter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xio2d_cg_fps_counter.cpp; path = P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_fps_counter.cpp; sourceTree = SOURCE_ROOT; };
+		71FFDA51FFBD4F19B27CE1DA /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_interop.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xio2d_cg_interop.h; path = P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_interop.h; sourceTree = SOURCE_ROOT; };
+		749642422E634331B9BAEF67 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_paths.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xio2d_cg_paths.cpp; path = P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_paths.cpp; sourceTree = SOURCE_ROOT; };
+		74F38C9CB8664F76AE295ABF /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = P0267_RefImpl/P0267_RefImpl/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		752248E87BE640DD954E7A2E /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xdiagnostics.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xdiagnostics.h; path = P0267_RefImpl/P0267_RefImpl/xdiagnostics.h; sourceTree = SOURCE_ROOT; };
+		85AB2BB0C336400493E76C13 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_paths_figures.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xio2d_cg_paths_figures.h; path = P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_paths_figures.h; sourceTree = SOURCE_ROOT; };
+		88589B72EAD54ECDB5263C95 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/linear_gradient.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = linear_gradient.cpp; path = P0267_RefImpl/Tests/linear_gradient.cpp; sourceTree = SOURCE_ROOT; };
+		88B1711641224AFE810F9A39 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8D1F36E9114E433EA6F3DB95 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/radial_gradient.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = radial_gradient.cpp; path = P0267_RefImpl/Tests/radial_gradient.cpp; sourceTree = SOURCE_ROOT; };
+		8F5F6D3D209C4F3C8694D8F6 /* tests */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = tests; sourceTree = BUILT_PRODUCTS_DIR; };
+		900D18D9641643FA965B2330 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac/xio2d_cg_output_surfaces.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = xio2d_cg_output_surfaces.mm; path = P0267_RefImpl/P0267_RefImpl/coregraphics/mac/xio2d_cg_output_surfaces.mm; sourceTree = SOURCE_ROOT; };
+		9A2CEB3BCAC34312A6724875 /* io2d_coregraphics */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libio2d_coregraphics.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B002B203B6A408180561D94 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = P0267_RefImpl/Tests/main.cpp; sourceTree = SOURCE_ROOT; };
+		9BA03E46685546C6959553A3 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/image_io.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = image_io.cpp; path = P0267_RefImpl/Tests/image_io.cpp; sourceTree = SOURCE_ROOT; };
+		A52586614D5540F09AAA6830 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_colors.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xio2d_cg_colors.cpp; path = P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_colors.cpp; sourceTree = SOURCE_ROOT; };
+		A6CFF9FB99BC4518A27C04B1 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xgraphicsmath.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xgraphicsmath.h; path = P0267_RefImpl/P0267_RefImpl/xgraphicsmath.h; sourceTree = SOURCE_ROOT; };
+		A9223F9AA5B54DA0A4A6F327 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/mask.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mask.cpp; path = P0267_RefImpl/Tests/mask.cpp; sourceTree = SOURCE_ROOT; };
+		A9FD2A0F77864D2BBC2BB0BF /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xtext.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xtext.h; path = P0267_RefImpl/P0267_RefImpl/xtext.h; sourceTree = SOURCE_ROOT; };
+		AC6A47F79CBE4CFDB7354B4C /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_gradient.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xio2d_cg_gradient.cpp; path = P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_gradient.cpp; sourceTree = SOURCE_ROOT; };
+		B83AF00B6E4C45FB94E421AE /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_fps_counter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xio2d_cg_fps_counter.h; path = P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_fps_counter.h; sourceTree = SOURCE_ROOT; };
+		B9C092D677D64E5FB070218B /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xgraphicsmathfloat.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xgraphicsmathfloat.h; path = P0267_RefImpl/P0267_RefImpl/xgraphicsmathfloat.h; sourceTree = SOURCE_ROOT; };
+		C39D73D4782A406B9C44571F /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xsurfacesprops_impl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xsurfacesprops_impl.h; path = P0267_RefImpl/P0267_RefImpl/xsurfacesprops_impl.h; sourceTree = SOURCE_ROOT; };
+		C65C1EB676164815992574B7 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_paths_figures.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xio2d_cg_paths_figures.cpp; path = P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_paths_figures.cpp; sourceTree = SOURCE_ROOT; };
+		CF0AF23FC3CD46E9B6F4C88A /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_colors.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xio2d_cg_colors.h; path = P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_colors.h; sourceTree = SOURCE_ROOT; };
+		CF7C0EE9E1FC40F4A4A9199B /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_display.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xio2d_cg_display.h; path = P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_display.h; sourceTree = SOURCE_ROOT; };
+		D0749CA97A6442C78AA7B6AC /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_brushes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = xio2d_cg_brushes.cpp; path = P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_brushes.cpp; sourceTree = SOURCE_ROOT; };
+		D0DE0A0389A344199724AA76 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xbrushes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xbrushes.h; path = P0267_RefImpl/P0267_RefImpl/xbrushes.h; sourceTree = SOURCE_ROOT; };
+		D355C15E747C4F169A81CDBA /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_surfaces.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xio2d_cg_surfaces.h; path = P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_surfaces.h; sourceTree = SOURCE_ROOT; };
+		D4D8E43F36494F36B5E2882E /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_main.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xio2d_cg_main.h; path = P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_main.h; sourceTree = SOURCE_ROOT; };
+		D79E0FB779164D2E9D28BB44 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xcolor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xcolor.h; path = P0267_RefImpl/P0267_RefImpl/xcolor.h; sourceTree = SOURCE_ROOT; };
+		DAE49C28F2164A27AC339E3D /* io2d_core */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libio2d_core.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E292B66CEBF5485D81D7A7DD /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_brushes.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xio2d_cg_brushes.h; path = P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_brushes.h; sourceTree = SOURCE_ROOT; };
+		EC934C6C79FA46FFA5DFD1A3 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = P0267_RefImpl/P0267_RefImpl/coregraphics/mac/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F12515BA35A54C888ACDB9F4 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/stroke_dashes.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = stroke_dashes.cpp; path = P0267_RefImpl/Tests/stroke_dashes.cpp; sourceTree = SOURCE_ROOT; };
+		FC03093FA8F7446588EAE3DD /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_paths.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xio2d_cg_paths.h; path = P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_paths.h; sourceTree = SOURCE_ROOT; };
+		FC0A7743665D4466B43A6A37 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xpath_impl.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = xpath_impl.h; path = P0267_RefImpl/P0267_RefImpl/xpath_impl.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17684759E4D54E6E9429A8E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFF35B317F64231BFFA4402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D66DA14E0F4AD28C01306C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6D689545DD5416A9AE2E458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00C79F5E68C74F73ACC4F495 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				8F84DB08743E4E1B883A8A67 /* CMake Rules */,
+				88B1711641224AFE810F9A39 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		0E193B6ECB3A40B3823C303E /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				C1B032E713734F789BEF2605 /* Source Files */,
+				2164573555784EA9BE122AE5 /* Header Files */,
+				60FB8D9559B3490DB426A800 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/CMakeLists.txt */,
+			);
+			name = tests;
+			sourceTree = "<group>";
+		};
+		18D078C0AF9A42069CAB40EA = {
+			isa = PBXGroup;
+			children = (
+				00C79F5E68C74F73ACC4F495 /* ALL_BUILD */,
+				9ABAB480FAB3435E9C75375D /* io2d_core */,
+				967D16772E5B48D08B6C4784 /* io2d_coregraphics */,
+				8DB74F0A43CF4D7B96C7C81D /* io2d_coregraphics_mac */,
+				0E193B6ECB3A40B3823C303E /* tests */,
+				C9CC95554080404996CF64A8 /* Products */,
+				C61D4A85DA104B389892A463 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2164573555784EA9BE122AE5 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				0094D13DB12E4DE4BE712B76 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/comparison.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		448EF0EBA2844775B8F41102 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0DE0A0389A344199724AA76 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xbrushes.h */,
+				684D698DCCDA4A8CABCB9BCD /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xbrushes_impl.h */,
+				D79E0FB779164D2E9D28BB44 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xcolor.h */,
+				752248E87BE640DD954E7A2E /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xdiagnostics.h */,
+				A6CFF9FB99BC4518A27C04B1 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xgraphicsmath.h */,
+				1C25B7E224554E4C902DA5B7 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xgraphicsmath_impl.h */,
+				B9C092D677D64E5FB070218B /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xgraphicsmathfloat.h */,
+				0F0D1AF0609D4FBBA00D4633 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xgraphicsmathfloat_impl.h */,
+				4D33A7C89E674216A797D1DF /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xinput.h */,
+				354CEDB3B81842AEB7D5E5D2 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xinterchangebuffer.h */,
+				27B8C04A66434EA5B717FCFE /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xio2d.h */,
+				03D926517DCE4CE2A33DB7F9 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xio2d_impl.h */,
+				27C7598E46FF43AEA79E52D4 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xpath.h */,
+				FC0A7743665D4466B43A6A37 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xpath_impl.h */,
+				62CB8333D99F470B81AB0D1D /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xpathbuilder_impl.h */,
+				2A07C1328B8247268DF1C274 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xsurfaces.h */,
+				591B070DEB0348028A78DB62 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xsurfaces_enums.h */,
+				1844F00022C3445F97ACF8F5 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xsurfaces_impl.h */,
+				C39D73D4782A406B9C44571F /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xsurfacesprops_impl.h */,
+				A9FD2A0F77864D2BBC2BB0BF /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xtext.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		71FC237D333F4D63B3A57C68 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0749CA97A6442C78AA7B6AC /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_brushes.cpp */,
+				A52586614D5540F09AAA6830 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_colors.cpp */,
+				0989F696381742C79FE5638F /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_display.cpp */,
+				7074318CE5F746249D648FB8 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_fps_counter.cpp */,
+				AC6A47F79CBE4CFDB7354B4C /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_gradient.cpp */,
+				749642422E634331B9BAEF67 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_paths.cpp */,
+				C65C1EB676164815992574B7 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_paths_figures.cpp */,
+				2E2620E051C0406F84B84CBD /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_surfaces.cpp */,
+				5214BF43BFD1433695F97052 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_texture.cpp */,
+				686F721CEC584B699DB7036B /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_tmplayer.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8DB74F0A43CF4D7B96C7C81D /* io2d_coregraphics_mac */ = {
+			isa = PBXGroup;
+			children = (
+				F1FF0C9AF90B4A3F812609D6 /* Header Files */,
+				D04D3C341ECE4A4486374BA8 /* Source Files */,
+				EC934C6C79FA46FFA5DFD1A3 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac/CMakeLists.txt */,
+			);
+			name = io2d_coregraphics_mac;
+			sourceTree = "<group>";
+		};
+		8F84DB08743E4E1B883A8A67 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		910FC868339243C1AEE60C73 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				E292B66CEBF5485D81D7A7DD /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_brushes.h */,
+				CF0AF23FC3CD46E9B6F4C88A /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_colors.h */,
+				CF7C0EE9E1FC40F4A4A9199B /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_display.h */,
+				B83AF00B6E4C45FB94E421AE /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_fps_counter.h */,
+				10236FC4E72D4A108B130D29 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_gradient.h */,
+				71FFDA51FFBD4F19B27CE1DA /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_interop.h */,
+				D4D8E43F36494F36B5E2882E /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_main.h */,
+				FC03093FA8F7446588EAE3DD /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_paths.h */,
+				85AB2BB0C336400493E76C13 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_paths_figures.h */,
+				4422263C429F4ABDAE9218CE /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_surface_state_props.h */,
+				D355C15E747C4F169A81CDBA /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_surfaces.h */,
+				3EDC7D05CA4A4ED8A16C7478 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_texture.h */,
+				0835A13B09CA4CA18E5943DE /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_tmplayer.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		967D16772E5B48D08B6C4784 /* io2d_coregraphics */ = {
+			isa = PBXGroup;
+			children = (
+				71FC237D333F4D63B3A57C68 /* Source Files */,
+				910FC868339243C1AEE60C73 /* Header Files */,
+				3189B589B7D44BDAAEA23C2F /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/CMakeLists.txt */,
+			);
+			name = io2d_coregraphics;
+			sourceTree = "<group>";
+		};
+		9ABAB480FAB3435E9C75375D /* io2d_core */ = {
+			isa = PBXGroup;
+			children = (
+				A8887D0EE11F48BFAB669BBF /* Source Files */,
+				448EF0EBA2844775B8F41102 /* Header Files */,
+				74F38C9CB8664F76AE295ABF /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/CMakeLists.txt */,
+			);
+			name = io2d_core;
+			sourceTree = "<group>";
+		};
+		A8887D0EE11F48BFAB669BBF /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				198325D1C7C0454BB318EC37 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/rgba_color.cpp */,
+				0DB862DD94564522A4AFDF65 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xinterchangebuffer.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C1B032E713734F789BEF2605 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A098AFD6AE645AEB366B69A /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/background_paint.cpp */,
+				6975D6ADEEF247D0AA8525AB /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/blending.cpp */,
+				2666A9EC82DC4B18AABB4EED /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/color.cpp */,
+				05B7D889F4184ED980782BE8 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/comparison.cpp */,
+				1078648973034642822D9A0E /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/frontend_semantics.cpp */,
+				4A5387EA64D544C0BFF39257 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/image_format.cpp */,
+				9BA03E46685546C6959553A3 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/image_io.cpp */,
+				88589B72EAD54ECDB5263C95 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/linear_gradient.cpp */,
+				9B002B203B6A408180561D94 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/main.cpp */,
+				A9223F9AA5B54DA0A4A6F327 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/mask.cpp */,
+				8D1F36E9114E433EA6F3DB95 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/radial_gradient.cpp */,
+				3B71A87B113246C29007341C /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/rectangle_stroke.cpp */,
+				F12515BA35A54C888ACDB9F4 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/stroke_dashes.cpp */,
+				0F09F4E954C9419C9A4B79FC /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/stroke_width.cpp */,
+				2B0EA06FAFFA466BBF7233E5 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/surface_brush.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C61D4A85DA104B389892A463 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9CC95554080404996CF64A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAE49C28F2164A27AC339E3D /* io2d_core */,
+				9A2CEB3BCAC34312A6724875 /* io2d_coregraphics */,
+				210807A0D94F4E368FE19621 /* io2d_coregraphics_mac */,
+				8F5F6D3D209C4F3C8694D8F6 /* tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D04D3C341ECE4A4486374BA8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				900D18D9641643FA965B2330 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac/xio2d_cg_output_surfaces.mm */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		F1FF0C9AF90B4A3F812609D6 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F688FED819544FE92AE87A1 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac/io2d.h */,
+				40E1CD2E58E04B51AAD7E115 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac/io2d_coregraphics_mac.h */,
+				60F461C9860E4BC69473C0E8 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac/xio2d_cg_output_surfaces.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		592B4E0CD2364A0ABC48CF05 /* io2d_coregraphics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF6941CBCF64F279EA7A3A8 /* Build configuration list for PBXNativeTarget "io2d_coregraphics" */;
+			buildPhases = (
+				B5ACFC12A7E34F86904279C5 /* Sources */,
+				17684759E4D54E6E9429A8E1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4A53A73FFC44C64830E88C4 /* PBXTargetDependency */,
+				CD2EA719D4BD4F90B2A4A881 /* PBXTargetDependency */,
+			);
+			name = io2d_coregraphics;
+			productName = io2d_coregraphics;
+			productReference = 9A2CEB3BCAC34312A6724875 /* io2d_coregraphics */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6D1D899549ED412FAE5F2F39 /* tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 744D96345B7646269FED23FB /* Build configuration list for PBXNativeTarget "tests" */;
+			buildPhases = (
+				FC07C8EF946642DB85255373 /* Sources */,
+				3AFF35B317F64231BFFA4402 /* Frameworks */,
+				6977AC92B6E34F158A46DF13 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4287B7AACB544D488D59A3DA /* PBXTargetDependency */,
+				9944708CB4D840E3BDC6FC59 /* PBXTargetDependency */,
+				ED4634EDFE8442438FF2676C /* PBXTargetDependency */,
+				9E3B5934B71A42EB82DB7317 /* PBXTargetDependency */,
+			);
+			name = tests;
+			productName = tests;
+			productReference = 8F5F6D3D209C4F3C8694D8F6 /* tests */;
+			productType = "com.apple.product-type.tool";
+		};
+		7261746284A04E3BAAA98063 /* io2d_core */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40B5BEA082734BE987803915 /* Build configuration list for PBXNativeTarget "io2d_core" */;
+			buildPhases = (
+				5BFB23166EC0420EA15219D2 /* Sources */,
+				93D66DA14E0F4AD28C01306C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A08611D3F574024BDA34382 /* PBXTargetDependency */,
+			);
+			name = io2d_core;
+			productName = io2d_core;
+			productReference = DAE49C28F2164A27AC339E3D /* io2d_core */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F863DB11B39C4785ADACEB29 /* io2d_coregraphics_mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3098FA906D8548EEB655A3D4 /* Build configuration list for PBXNativeTarget "io2d_coregraphics_mac" */;
+			buildPhases = (
+				FFCAF46A2F87413499E7B581 /* Sources */,
+				D6D689545DD5416A9AE2E458 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4843F7622094BB7A106F092 /* PBXTargetDependency */,
+				2F45966855AB43478D67AC54 /* PBXTargetDependency */,
+				0E11300C5F2145819765E78C /* PBXTargetDependency */,
+			);
+			name = io2d_coregraphics_mac;
+			productName = io2d_coregraphics_mac;
+			productReference = 210807A0D94F4E368FE19621 /* io2d_coregraphics_mac */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46E29BD9BF5E455DA6EEFFFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1210;
+			};
+			buildConfigurationList = 149D63B047B1486187C1E1C8 /* Build configuration list for PBXProject "io2d" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				7EB7A518FEA4490F96C82503 /* Debug */,
+				572A8316CBCF48B187F76F2A /* Release */,
+				03FF119063A74CB38504CD1C /* MinSizeRel */,
+				6243C44134F447879D54262D /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 18D078C0AF9A42069CAB40EA;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				B7FCAB2BD8C349C99D51D7C6 /* ALL_BUILD */,
+				1993FFB2476445B7B462CFF6 /* RUN_TESTS */,
+				E68D587382124A8B8912BD46 /* ZERO_CHECK */,
+				CD4EC7C9C36F47E49FA0AB79 /* install */,
+				7261746284A04E3BAAA98063 /* io2d_core */,
+				592B4E0CD2364A0ABC48CF05 /* io2d_coregraphics */,
+				F863DB11B39C4785ADACEB29 /* io2d_coregraphics_mac */,
+				6D1D899549ED412FAE5F2F39 /* tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B47E364512D466F99A2A2E1 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug
+  /Applications/CMake.app/Contents/bin/ctest --force-new-ctest-process -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug
+  /Applications/CMake.app/Contents/bin/ctest --force-new-ctest-process -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug
+  /Applications/CMake.app/Contents/bin/ctest --force-new-ctest-process -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug
+  /Applications/CMake.app/Contents/bin/ctest --force-new-ctest-process -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		14E02631D00445DD8CF95A67 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		176751C21CF94F268C4D880F /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		239D34A421084B47A06CB9C6 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug
+  /Applications/CMake.app/Contents/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		35B0B5C234234A27934205C4 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6977AC92B6E34F158A46DF13 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/Tests
+  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/Reference /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/Tests/Debug
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/Tests
+  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/Reference /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/Tests/Release
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/Tests
+  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/Reference /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/Tests/MinSizeRel
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/Tests
+  /Applications/CMake.app/Contents/bin/cmake -E copy_directory /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/Reference /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/Tests/RelWithDebInfo
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		72C97DAFBD99412B8958981E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		7B34791D9BB2415593E07F72 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E2E7907F308449D7B11AC649 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug
+  make -f /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug
+  make -f /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug
+  make -f /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug
+  make -f /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BFB23166EC0420EA15219D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A834D90D3C0D44E7BA2FEADE /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/rgba_color.cpp */,
+				E70CBFC935A0450D8C21BB92 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/xinterchangebuffer.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5ACFC12A7E34F86904279C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF539E53BC7457EAA6BA009 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_brushes.cpp */,
+				B24FE0D799AE498B891BF8F7 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_colors.cpp */,
+				913C81BF4CDC473E8E9381E4 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_display.cpp */,
+				A1C222ED8380491D8BF2BDA4 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_fps_counter.cpp */,
+				9593FE9243EE49FEB4E3AF0A /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_gradient.cpp */,
+				7CF2AAB9C6934451AD3A73DE /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_paths.cpp */,
+				AEDC6D11E7E74A78BF1D0DCD /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_paths_figures.cpp */,
+				F38DB659E827478587168316 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_surfaces.cpp */,
+				8BB2816C3C9345A48E7E9FC8 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_texture.cpp */,
+				6ABA215B54E0402EA126B9C0 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/xio2d_cg_tmplayer.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC07C8EF946642DB85255373 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6868464E2B4E738882A9E9 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/background_paint.cpp */,
+				7DCAF76A158C449381CAFBFB /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/blending.cpp */,
+				63B92055391F43399389F7F1 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/color.cpp */,
+				043FE8E321A34747B7047A9B /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/comparison.cpp */,
+				830F19D4AAB94D619EC5A885 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/frontend_semantics.cpp */,
+				E5CC49CC3B754A6D8C19670B /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/image_format.cpp */,
+				E2C00EA6C6B3465C91B8E59C /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/image_io.cpp */,
+				F810322775004BCE9A366B63 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/linear_gradient.cpp */,
+				4B47488D011C4AC5A728496A /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/main.cpp */,
+				432BA085543340CB9685FC4B /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/mask.cpp */,
+				7EC6B6251FED46F09CE6E42D /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/radial_gradient.cpp */,
+				AB928EE1497E4066B4381669 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/rectangle_stroke.cpp */,
+				381F27B3562244DFAE9BA7C6 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/stroke_dashes.cpp */,
+				1C1A246C97BA4D92AE2A000F /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/stroke_width.cpp */,
+				4725E19C95FD4C59B24B8CDC /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/surface_brush.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCAF46A2F87413499E7B581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27284A8F6D2D4C47A2491D59 /* /Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac/xio2d_cg_output_surfaces.mm */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E11300C5F2145819765E78C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 592B4E0CD2364A0ABC48CF05 /* io2d_coregraphics */;
+			targetProxy = F3ADAC60E5F344FD8E7E0604 /* PBXContainerItemProxy */;
+		};
+		19C2BA1E98B1473A86ECF5CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6D1D899549ED412FAE5F2F39 /* tests */;
+			targetProxy = F883B6760A764EEE81B00046 /* PBXContainerItemProxy */;
+		};
+		1BFD60698B124FB197BF56E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E68D587382124A8B8912BD46 /* ZERO_CHECK */;
+			targetProxy = E81748D4FE7B4A859214829C /* PBXContainerItemProxy */;
+		};
+		2F45966855AB43478D67AC54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7261746284A04E3BAAA98063 /* io2d_core */;
+			targetProxy = 53683E56F1A140FAAB97DAF7 /* PBXContainerItemProxy */;
+		};
+		3A08611D3F574024BDA34382 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E68D587382124A8B8912BD46 /* ZERO_CHECK */;
+			targetProxy = A191041B35E84C62B58D92A5 /* PBXContainerItemProxy */;
+		};
+		4287B7AACB544D488D59A3DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E68D587382124A8B8912BD46 /* ZERO_CHECK */;
+			targetProxy = A7C2DF5D83FC4E3B873EDC49 /* PBXContainerItemProxy */;
+		};
+		7E07F59061D6400BB0646A93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F863DB11B39C4785ADACEB29 /* io2d_coregraphics_mac */;
+			targetProxy = F7A8581EE34F457CB1693993 /* PBXContainerItemProxy */;
+		};
+		90F506E565B34FAC852178E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7FCAB2BD8C349C99D51D7C6 /* ALL_BUILD */;
+			targetProxy = EBBDD25E427F44D689F48149 /* PBXContainerItemProxy */;
+		};
+		9311A64F3D8A41ADA38633AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 592B4E0CD2364A0ABC48CF05 /* io2d_coregraphics */;
+			targetProxy = EA52EC3D38A9430E9CDFD023 /* PBXContainerItemProxy */;
+		};
+		9944708CB4D840E3BDC6FC59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7261746284A04E3BAAA98063 /* io2d_core */;
+			targetProxy = 6991C6C1C0A74613B202A011 /* PBXContainerItemProxy */;
+		};
+		9E3B5934B71A42EB82DB7317 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F863DB11B39C4785ADACEB29 /* io2d_coregraphics_mac */;
+			targetProxy = 9297F29D12814D73B80C60C3 /* PBXContainerItemProxy */;
+		};
+		B2DB2BCE7F904E0B944648AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7261746284A04E3BAAA98063 /* io2d_core */;
+			targetProxy = 89F89025B9AE450287FAFB40 /* PBXContainerItemProxy */;
+		};
+		C4843F7622094BB7A106F092 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E68D587382124A8B8912BD46 /* ZERO_CHECK */;
+			targetProxy = B2985803F70A4220839A4DD0 /* PBXContainerItemProxy */;
+		};
+		CD2EA719D4BD4F90B2A4A881 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7261746284A04E3BAAA98063 /* io2d_core */;
+			targetProxy = 23C2AD1BE5E042588ABDD52B /* PBXContainerItemProxy */;
+		};
+		E4A53A73FFC44C64830E88C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E68D587382124A8B8912BD46 /* ZERO_CHECK */;
+			targetProxy = C5EDF5755D7742DC82E99D63 /* PBXContainerItemProxy */;
+		};
+		ED4634EDFE8442438FF2676C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 592B4E0CD2364A0ABC48CF05 /* io2d_coregraphics */;
+			targetProxy = 1B439AB480BE4256B48F3075 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ADD0CF191F34496A017E5BB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		15CB444D798B4D3DA38EB342 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/clang/include/c++/v1    '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = io2d_core;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/P0267_RefImpl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2A36379D195A45C5B7376BC9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/build";
+			};
+			name = MinSizeRel;
+		};
+		2C7FC34A71314B748FB81332 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/clang/include/c++/v1     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = io2d_coregraphics;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/P0267_RefImpl/coregraphics";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		30BC1C910E904AB7964A3B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		321A32C880BE46AF81274D1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		38B557086E61435BACB486B0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/clang/include/c++/v1        -DNDEBUG '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = io2d_coregraphics_mac;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/P0267_RefImpl/coregraphics/mac";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		39854086C6AC4A079DC924AC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4118F47E08C045BAAD5B6900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		421A6CAC77EB4FFC9C202A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/clang/include/c++/v1    '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = io2d_coregraphics_mac;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/P0267_RefImpl/coregraphics/mac";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6F51255407EB449794A45EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		766A05CAFE2F4FBBB4EC5AA9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/clang/include/c++/v1     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = io2d_coregraphics_mac;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/P0267_RefImpl/coregraphics/mac";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7F8DBE6D5ACB4F0F8D8F4302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ();
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,"/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/Catch2/single_include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ();
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/clang/include/c++/v1    '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("-L/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/clang/lib -Wl,-rpath,/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/clang/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/usr/local/lib/libpng16.dylib,"/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/P0267_RefImpl/coregraphics/mac/Debug/libio2d_coregraphics_mac.a","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/P0267_RefImpl/coregraphics/Debug/libio2d_coregraphics.a","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/P0267_RefImpl/Debug/libio2d_core.a","-framework CoreFoundation","-framework ImageIO","-framework CoreGraphics","-framework Cocoa","-framework AppKit","-framework CoreServices");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/Tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		80109B6F082F4D0BB74AEB66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ();
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,"/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/Catch2/single_include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ();
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/clang/include/c++/v1     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("-L/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/clang/lib -Wl,-rpath,/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/clang/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/usr/local/lib/libpng16.dylib,"/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/P0267_RefImpl/coregraphics/mac/Release/libio2d_coregraphics_mac.a","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/P0267_RefImpl/coregraphics/Release/libio2d_coregraphics.a","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/P0267_RefImpl/Release/libio2d_core.a","-framework CoreFoundation","-framework ImageIO","-framework CoreGraphics","-framework Cocoa","-framework AppKit","-framework CoreServices");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/Tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		81C874579EDA4277AAC85A38 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		829199CCDAA742AB9E43EC00 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		875E7F55465844D598CB7838 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		95DF9201969D4AD59CD06E65 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/clang/include/c++/v1     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = io2d_core;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/P0267_RefImpl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		990407E6C6224EFB95A8AD3C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/clang/include/c++/v1        -DNDEBUG '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = io2d_coregraphics;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/P0267_RefImpl/coregraphics";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9CAE035B8BD74CAA9FD4B23F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ();
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,"/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/Catch2/single_include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ();
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/clang/include/c++/v1        -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("-L/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/clang/lib -Wl,-rpath,/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/clang/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/usr/local/lib/libpng16.dylib,"/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/P0267_RefImpl/coregraphics/mac/RelWithDebInfo/libio2d_coregraphics_mac.a","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/P0267_RefImpl/coregraphics/RelWithDebInfo/libio2d_coregraphics.a","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/P0267_RefImpl/RelWithDebInfo/libio2d_core.a","-framework CoreFoundation","-framework ImageIO","-framework CoreGraphics","-framework Cocoa","-framework AppKit","-framework CoreServices");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/Tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A8FED93114904ECBA201CA85 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		ABE31C7723D44EFDAA75A84D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/clang/include/c++/v1        -DNDEBUG '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = io2d_core;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/P0267_RefImpl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AE68A72AEBD74BC1B48C49C3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B2A2E8484C3B4935800444BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		BDC2046E1A2B4C8A931B2CA2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/build";
+			};
+			name = RelWithDebInfo;
+		};
+		C0907BEF84084282A2529782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/clang/include/c++/v1     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = io2d_coregraphics_mac;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/P0267_RefImpl/coregraphics/mac";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C770D4B4D40243D8AA8B6C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		CE569351EDB84CD997CBBCD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/clang/include/c++/v1     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = io2d_coregraphics;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/P0267_RefImpl/coregraphics";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D9AAFB27BA464BC6AA068D9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E729E7FBD5784F1BAC641322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/build";
+			};
+			name = Release;
+		};
+		E8756FB98F774A59BE82725B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EB7569C4E11A494981470B02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/clang/include/c++/v1     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = io2d_core;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/P0267_RefImpl";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F011B27D90084986B5F752C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F51805A6068C4198A20376D6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = ();
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,"/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics/mac","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/Tests/Catch2/single_include");
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = ();
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/clang/include/c++/v1     -DNDEBUG '-std=gnu++17' ";
+				OTHER_LDFLAGS = ("-L/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/clang/lib -Wl,-rpath,/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/clang/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/usr/local/lib/libpng16.dylib,"/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/P0267_RefImpl/coregraphics/mac/MinSizeRel/libio2d_coregraphics_mac.a","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/P0267_RefImpl/coregraphics/MinSizeRel/libio2d_coregraphics.a","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/P0267_RefImpl/MinSizeRel/libio2d_core.a","-framework CoreFoundation","-framework ImageIO","-framework CoreGraphics","-framework Cocoa","-framework AppKit","-framework CoreServices");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = tests;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/Tests";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F7167563B367468BA48B6B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl/coregraphics","/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/P0267_RefImpl/P0267_RefImpl");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "-nostdinc++ -isystem/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/clang/include/c++/v1    '-std=gnu++17' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = io2d_coregraphics;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/P0267_RefImpl/P0267_RefImpl/coregraphics";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		FF09C208C7EE48D384ED0639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/stephanosterburg/Projects/CppND-Route-Planning-Project/thirdparty/io2d/Debug/build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		149D63B047B1486187C1E1C8 /* Build configuration list for PBXProject "io2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF09C208C7EE48D384ED0639 /* Debug */,
+				E729E7FBD5784F1BAC641322 /* Release */,
+				2A36379D195A45C5B7376BC9 /* MinSizeRel */,
+				BDC2046E1A2B4C8A931B2CA2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3098FA906D8548EEB655A3D4 /* Build configuration list for PBXNativeTarget "io2d_coregraphics_mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421A6CAC77EB4FFC9C202A43 /* Debug */,
+				C0907BEF84084282A2529782 /* Release */,
+				766A05CAFE2F4FBBB4EC5AA9 /* MinSizeRel */,
+				38B557086E61435BACB486B0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		33AF7D1D9A014F60A2D8E460 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F011B27D90084986B5F752C7 /* Debug */,
+				C770D4B4D40243D8AA8B6C48 /* Release */,
+				875E7F55465844D598CB7838 /* MinSizeRel */,
+				AE68A72AEBD74BC1B48C49C3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		40B5BEA082734BE987803915 /* Build configuration list for PBXNativeTarget "io2d_core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15CB444D798B4D3DA38EB342 /* Debug */,
+				EB7569C4E11A494981470B02 /* Release */,
+				95DF9201969D4AD59CD06E65 /* MinSizeRel */,
+				ABE31C7723D44EFDAA75A84D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		744D96345B7646269FED23FB /* Build configuration list for PBXNativeTarget "tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8DBE6D5ACB4F0F8D8F4302 /* Debug */,
+				80109B6F082F4D0BB74AEB66 /* Release */,
+				F51805A6068C4198A20376D6 /* MinSizeRel */,
+				9CAE035B8BD74CAA9FD4B23F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8B7A0F49B28444EE8CB39C7F /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9AAFB27BA464BC6AA068D9D /* Debug */,
+				6F51255407EB449794A45EBE /* Release */,
+				829199CCDAA742AB9E43EC00 /* MinSizeRel */,
+				39854086C6AC4A079DC924AC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CEDC87BAC3EF4B8DAED35A33 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BC1C910E904AB7964A3B13 /* Debug */,
+				B2A2E8484C3B4935800444BF /* Release */,
+				81C874579EDA4277AAC85A38 /* MinSizeRel */,
+				E8756FB98F774A59BE82725B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ED8F016DAB2343909D95171E /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				321A32C880BE46AF81274D1D /* Debug */,
+				4118F47E08C045BAAD5B6900 /* Release */,
+				0ADD0CF191F34496A017E5BB /* MinSizeRel */,
+				A8FED93114904ECBA201CA85 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FAF6941CBCF64F279EA7A3A8 /* Build configuration list for PBXNativeTarget "io2d_coregraphics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7167563B367468BA48B6B42 /* Debug */,
+				CE569351EDB84CD997CBBCD9 /* Release */,
+				2C7FC34A71314B748FB81332 /* MinSizeRel */,
+				990407E6C6224EFB95A8AD3C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46E29BD9BF5E455DA6EEFFFF /* Project object */;
+}
