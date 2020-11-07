@@ -26,7 +26,8 @@ void RoutePlanner::AddNeighbors(RouteModel::Node *current_node) {
     current_node->FindNeighbors();
 
     // For each node in current_node.neighbors, set the parent, the h_value, the g_value.
-    for (RouteModel::Node *neighbor : current_node->neighbors) {
+    // Note: We can use "auto" 
+    for (auto *neighbor : current_node->neighbors) {
         neighbor->parent = current_node;
         // Use CalculateHValue below to implement the h-Value calculation.
         neighbor->h_value = CalculateHValue(neighbor);
@@ -54,8 +55,10 @@ RouteModel::Node *RoutePlanner::NextNode() {
     
     // Create a pointer to the node in the list with the lowest sum.
   	auto node = open_list.front();
-    // Remove that node from the open_list.
-    open_list.erase(open_list.begin());
+    // Remove that node from the open_list. 
+    // Note: Always name variables with descriptive names. Instead of name this varibale t you can name it first_node.
+    auto first_node = open_list.begin();
+    open_list.erase(first_node);
 
     // Return the pointer.
     return node;
@@ -97,9 +100,9 @@ void RoutePlanner::AStarSearch() {
         //   that was found.
         // Store the final path in the m_Model.path attribute before the method exits. This path will then be 
         //   displayed on the map tile.
-        if (current_node->distance(*end_node) == 0) {
+        if (current_node == end_node) {  // Note: We can simply check current vs end_node instead
             m_Model.path = ConstructFinalPath(current_node);
-            return;
+            break; // Note: Use break instead of return
         }
         
         // The AddNeighbors method to add all of the neighbors of the current node to the open_list.
