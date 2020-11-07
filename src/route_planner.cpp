@@ -26,7 +26,7 @@ void RoutePlanner::AddNeighbors(RouteModel::Node *current_node) {
     current_node->FindNeighbors();
 
     // For each node in current_node.neighbors, set the parent, the h_value, the g_value.
-    // Note: We can use "auto" 
+    // Note: We can use "auto" instead of RouteModel::Node
     for (auto *neighbor : current_node->neighbors) {
         neighbor->parent = current_node;
         // Use CalculateHValue below to implement the h-Value calculation.
@@ -100,7 +100,8 @@ void RoutePlanner::AStarSearch() {
         //   that was found.
         // Store the final path in the m_Model.path attribute before the method exits. This path will then be 
         //   displayed on the map tile.
-        if (current_node == end_node) {  // Note: We can simply check current vs end_node instead
+        // Note: We can simply check current vs end_node instead of current_node->distance(*end_node) == 0
+        if (current_node == end_node) { 
             m_Model.path = ConstructFinalPath(current_node);
             break; // Note: Use break instead of return
         }
